@@ -1,0 +1,23 @@
+h2{
+    font-size: 45px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.5;
+    padding-top: 1em;
+}
+
+.calendar{
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*who are we?*/
+.whoare{
+    width: 75%;
+    margin: 4em auto 4em;
+}
+
+#whoareImg{
+    width: 600px;
+    height: 350px;
+}

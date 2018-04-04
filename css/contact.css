@@ -1,0 +1,17 @@
+.twitterWidget{
+    margin-top: 4em;
+    display: table;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts{
+    margin: 0 auto;
+    max-width: 30em;
+    white-space: pre;
+}
+
+.name{
+    font-weight: bold;
+}
