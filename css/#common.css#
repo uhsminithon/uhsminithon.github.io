@@ -1,0 +1,181 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+        font-family: "Helvetica", "Arial", sans-serif;
+	vertical-align: baseline;
+}
+
+#header{
+    width: 100%;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+h1{
+    padding-top: 2px;
+    color: FFF;
+    font-size: 25px;
+
+}
+
+#headerImg{
+    width: 100%;
+    height: 45%;
+    background-image: url("../img/header.jpg");
+    position: relative;
+    z-index: 1;
+}
+
+#overlapImg{
+    z-index: 2;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top:15%;
+    left: 0;
+    right: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.8;
+    clip-path: circle(65px at center);
+    transition:all 0.3s ease;
+}
+
+
+#overlapImg2{
+    z-index: 2;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top:15%;
+    left: 250px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.8;
+    clip-path: circle(65px at center);
+    transition:all 0.3s ease;
+}
+
+
+#overlapImg:hover{
+    opacity: 1;
+}
+
+#overlapImg2:hover{
+    opacity: 1;
+}
+
+#navBar{
+    width: 100%;
+    height: 80px;
+    background-color: #00529b;
+    position: sticky;
+    top: 0px;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+#centeredBar{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ulNav{
+    width: 50%;
+    text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    transform: translateY(20px);
+}
+
+.ignoreCSS{
+    all:unset;
+}
+
+li a{
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 95%;
+    ben: wrote-this;
+    position: relative;
+    overflow: hidden;
+    color: FFF;
+    vertical-align: middle;
+    transition:all 0.3s ease;
+}
+
+/* CSS to make the header image not move when scrolling */
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    opacity: 0.55;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+#body{
+    width: 100%;
+    height: 110%;
+}
+
+#bodyText{
+    margin: 0 auto;
+    max-width: 45em;
+    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.subheading{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.video{
+    width: 450;
+    height: 300;
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    
+}
+
+/*
+  Ben
+*/
